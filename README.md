@@ -28,9 +28,9 @@
 
 	3.4. Lisää sivun alkuun filtteri-kenttä, johon voi kirjoittaa tekstiä. Filtteröi kirjoja reaaliaikaisesti vertaamalla kirjan nimeä ja filtteri-kenttään syötettyä tekstiä (filtteri "taru" näyttää siis mm. kirjat "Taru sormusten herrasta" ja "Eldoradon taru")
 
-4. Tee pull request muutoksista
+4. Lähetä zipattu koodi hakemuslomakkeen liitteenä.
 	
-	4.1. Lisää pull requestin mukana (migrations-kansioon) mahdolliset migraatio-ohjeet ja tietokannan dumppi
+	4.1. Lisää (migrations-kansioon) mahdolliset migraatio-ohjeet ja tietokannan dumppi
 
 
 ### Huomioitavaa:
