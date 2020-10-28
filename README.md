@@ -6,9 +6,13 @@
 
 0. Esivalmistelut
 	
-	0.1 Ota käyttöön migrations-kansion default.sql:n sisältämät tietokannan taulut
+	0.1 Kopio tämä repository omalle koneellesi 
 
-	0.2 Hanki pääsy wp-adminiin esim. resetoimalla rekry@cap.fi-käyttäjän salasana ja kirjaudu sisään wp-adminiin
+	0.2 Lähdekoodi ei sisällä Wordpress-corea, joten asenna se itse
+
+	0.3 Ota käyttöön migrations-kansion default.sql:n sisältämät tietokannan taulut
+
+	0.4 Hanki pääsy wp-adminiin esim. resetoimalla rekry@cap.fi-käyttäjän salasana ja kirjaudu sisään wp-adminiin
 
 1. Asenna Custom Post Type UI -plugin
 	
@@ -30,7 +34,7 @@
 
 	3.4. Lisää sivun alkuun filtteri-kenttä, johon voi kirjoittaa tekstiä. Filtteröi kirjoja reaaliaikaisesti vertaamalla kirjan nimeä ja filtteri-kenttään syötettyä tekstiä (filtteri "taru" näyttää siis mm. kirjat "Taru sormusten herrasta" ja "Eldoradon taru")
 
-4. Lähetä zipattu koodi hakemuslomakkeen liitteenä.
+4. Pakkaa projektin lähdekoodi yhdeksi tiedostoksi ja lähetä se hakemuslomakkeen (cap.fi/wordpressrekry/) liitteenä.
 	
 	4.1. Lisää (migrations-kansioon) mahdolliset migraatio-ohjeet ja tietokannan dumppi
 
