@@ -1,12 +1,14 @@
 # Rekry-ennakkotehtävä
 
+(Jos sinulla on ongelmia versionhallinnan tai minkä tahansa tämän ohjeen kohdan kanssa, älä epäröi pyytää apua tai lisätietoja: olli.saari@cap.fi tai 040 753 6990.)
+
 ### Luo versionhallintaan oma kehityshaara ja toteuta seuraava tehtävä:
 
 0. Esivalmistelut
 	
 	0.1 Ota käyttöön migrations-kansion default.sql:n sisältämät tietokannan taulut
 
-	0.2 Resetoi rekry@cap.fi-käyttäjän salasana ja kirjaudu sisään wp-adminiin
+	0.2 Hanki pääsy wp-adminiin esim. resetoimalla rekry@cap.fi-käyttäjän salasana ja kirjaudu sisään wp-adminiin
 
 1. Asenna Custom Post Type UI -plugin
 	
@@ -38,3 +40,5 @@
 Tee muutokset niin, että ne eivät katoa, kun Twenty Twenty -teema päivitetään.
 
 Kirjan single-näkymästä ei tarvitse huolehtia tässä tehtävässä.
+
+Jos sinulla on ongelmia versionhallinnan tai minkä tahansa tämän ohjeen kohdan kanssa, älä epäröi pyytää apua tai lisätietoja: olli.saari@cap.fi tai 040 753 6990.
