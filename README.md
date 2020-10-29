@@ -21,22 +21,23 @@
 2. Asenna Advanced Custom Fields -plugin
 
 	2.1 luo book-post_typelle kaksi lisäkenttää:
-		* Arvosana (1-5)
-		* Tila: lainassa, hyllyssä, hukassa (pakollinen tieto)
+		
+		- Arvosana (1-5)
+		- Tila: lainassa, hyllyssä, hukassa (pakollinen tieto)
 
 3. Luo sivu, jonka osoite on /kirjahylly/ ja joka toimii book-post_typen arkistosivuna
 	
 	3.1 Lisää tietokantaan muutamia esimerkkikirjoja sekä anna niille arvosana ja määritä tila.
 
-	3.2 Tulosta arkistosivulla allekkain kaikki kirjat niin, että kirjasta näkyy Kirjan nimi (the_title), arvosana ja tila.
+	3.2 Tulosta arkistosivulla allekkain kaikki kirjat niin että kirjasta näkyy kirjan nimi (the_title), arvosana ja tila.
 
-	3.3 Muokkaa arkisto-sivun Main Query:a niin, että sivulla tulostetaan vain kirjat, joille on määritetty arvosana
+	3.3 Muokkaa arkisto-sivun Main Query:a niin että sivulla tulostetaan vain kirjat, joille on määritetty arvosana
 
-	3.4 Lisää sivun alkuun filtteri-kenttä, johon voi kirjoittaa tekstiä. Filtteröi kirjoja reaaliaikaisesti vertaamalla kirjan nimeä ja filtteri-kenttään syötettyä tekstiä (filtteri "taru" näyttää siis mm. kirjat "Taru sormusten herrasta" ja "Eldoradon taru")
+	3.4 Lisää sivun alkuun input-kenttä. Filtteröi kirjoja reaaliaikaisesti vertaamalla kirjan nimeä ja input-kenttään syötettyä tekstiä (filtteri "taru" näyttää siis mm. kirjat "Taru sormusten herrasta" ja "Eldoradon taru")
 
-4. Pakkaa projektin lähdekoodi yhdeksi tiedostoksi ja lähetä se hakemuslomakkeen (cap.fi/wordpressrekry/) liitteenä.
+4. Pakkaa projektin lähdekoodi yhdeksi tiedostoksi ja lähetä se hakemuslomakkeen ([https://cap.fi/fi/wordpressrekry](https://cap.fi/fi/wordpressrekry)) liitteenä.
 	
-	4.1 Lisää (migrations-kansioon) mahdolliset migraatio-ohjeet ja tietokannan dumppi
+	4.1 Lisää migrations-kansioon mahdolliset migraatio-ohjeet ja tietokannan dumppi
 
 
 ### Huomioitavaa:
